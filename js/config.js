@@ -96,6 +96,15 @@ const CONFIG = {
     color: 'linear-gradient(135deg, #4285F4, #EA4335, #FBBC05, #34A853)',
     quickLaunch: false,
   },
+  {
+    category: 'Social',
+    name: 'Letterboxd',
+    key: 'lt',
+    url: 'https://letterboxd.com',
+    search: '/search/{}',
+    color: 'linear-gradient(135deg, #FF8000, #00E054, #40BCF4)',
+    quickLaunch: false,
+  },
 
 
   ],
