@@ -15,33 +15,20 @@ const CONFIG = {
 
 
   {
-    category: 'General',
+    category: 'Chats',
     name: 'WhatsApp',
     key: 'w',
     url: 'https://web.whatsapp.com',
     color: 'linear-gradient(135deg, #25D366, #128C7E, #075E54)',
-    icon: 'whatsapp',
     quickLaunch: false,
   },
   {
-    category: 'General',
-    name: 'Proton Mail',
-    key: 'p',
-    url: 'https://mail.proton.me/u/0/inbox',
-    search: '/#search/text={}',
-    color: 'linear-gradient(135deg, #6D4AFF, #9779FF)',
-    icon: 'proton',
+    category: 'Chats',
+    name: 'Telegram',
+    key: 'tg',
+    url: 'https://web.telegram.org',
+    color: 'linear-gradient(135deg, #2AABEE, #229ED9)',
     quickLaunch: true,
-  },
-  {
-    category: 'General',
-    name: 'Translate',
-    key: 'tr',
-    url: 'https://www.deepl.com/pt-BR/translator/',
-    search: '/#view=home&op=translate&sl=auto&tl=en&text={}',
-    color: '#1a73e8',
-    icon: 'translate',
-    quickLaunch: false,
   },
 
 
@@ -52,27 +39,6 @@ const CONFIG = {
     url: 'https://github.com',
     search: '/search?q={}',
     color: 'linear-gradient(135deg, #2b2b2b, #3b3b3b)',
-    icon: 'github',
-    quickLaunch: false,
-  },
-  {
-    category: 'Programming',
-    name: 'Diolinux Plus',
-    key: 'dp',
-    url: 'https://plus.diolinux.com.br/',
-    search: '/search?q={}',
-    color: 'linear-gradient(135deg, #0F65AC, #BD0AA1)',
-    icon: 'dplus',
-    quickLaunch: true,
-  },
-  {
-    category: 'Programming',
-    name: 'HackerNews',
-    key: 'hn',
-    url: 'https://news.ycombinator.com/',
-    search: '/search?stories[query]={}',
-    color: 'linear-gradient(135deg, #FF6600, #DC5901)',
-    icon: 'hackernews',
     quickLaunch: false,
   },
 
@@ -84,7 +50,6 @@ const CONFIG = {
     url: 'https://www.youtube.com/',
     search: '/results?search_query={}',
     color: 'linear-gradient(135deg, #cd201f, #cd4c1f)',
-    icon: 'youtube',
     quickLaunch: false,
   },
   {
@@ -94,25 +59,16 @@ const CONFIG = {
     url: 'https://music.youtube.com/',
     search: '/results?search_query={}',
     color: 'linear-gradient(135deg, #cd201f, #cd4c1f)',
-    icon: 'youtube',
     quickLaunch: false,
   },
-  {
-    category: 'Streaming',
-    name: 'Max',
-    key: 'h',
-    url: 'https://play.max.com/',
-    color: 'linear-gradient(135deg, #8C27E6, #3F75D5)',
-    icon: 'hbo',
-    quickLaunch: false,
-  },
+
+
   {
     category: 'Social',
     name: 'Instagram',
     key: 'i',
     url: 'https://www.instagram.com',
     color: 'linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d)',
-    icon: 'instagram',
     quickLaunch: true,
   },
   {
@@ -122,7 +78,6 @@ const CONFIG = {
     url: 'https://www.twitter.com',
     search: '/search?q={}&src=typed_query',
     color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
-    icon: 'twitter',
     quickLaunch: true,
   },
   {
@@ -131,16 +86,14 @@ const CONFIG = {
     key: 'pt',
     url: 'https://www.pinterest.com/',
     color: '#E60023',
-    icon: 'pinterest',
     quickLaunch: false,
   },
   {
     category: 'Social',
-    name: '1500chan',
-    key: '15',
-    url: 'https://1500chan.org/b/',
-    color: '#69823A',
-    icon: '1500chan',
+    name: 'ZohoMail',
+    key: 'zm',
+    url: 'https://mail.zoho.com',
+    color: 'linear-gradient(135deg, #E83F3F, #C32828)',
     quickLaunch: false,
   },
 
@@ -212,7 +165,7 @@ const CONFIG = {
   /**
    * Show keys instead of icons
    */
-  showKeys: false,
+  showKeys: true,
 
   /**
    * The delimiter between a command key and your search query. For example,
