@@ -25,7 +25,7 @@ const CONFIG = {
   {
     category: 'Chats',
     name: 'Telegram',
-    key: 'tg',
+    key: 'tl',
     url: 'https://web.telegram.org',
     color: 'linear-gradient(135deg, #2AABEE, #229ED9)',
     quickLaunch: true,
@@ -73,11 +73,11 @@ const CONFIG = {
   },
   {
     category: 'Social',
-    name: 'Twitter',
-    key: 't',
+    name: 'X/Twitter',
+    key: 'x',
     url: 'https://www.twitter.com',
     search: '/search?q={}&src=typed_query',
-    color: 'linear-gradient(135deg, #1DA1F2, #19608F)',
+    color: 'linear-gradient(135deg, #808080, #000000)',
     quickLaunch: true,
   },
   {
@@ -93,7 +93,7 @@ const CONFIG = {
     name: 'ZohoMail',
     key: 'zm',
     url: 'https://mail.zoho.com',
-    color: 'linear-gradient(135deg, #E83F3F, #C32828)',
+    color: 'linear-gradient(135deg, #4285F4, #EA4335, #FBBC05, #34A853)',
     quickLaunch: false,
   },
 
