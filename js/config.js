@@ -41,6 +41,22 @@ const CONFIG = {
     color: 'linear-gradient(135deg, #2b2b2b, #3b3b3b)',
     quickLaunch: false,
   },
+  {
+    category: 'Programming',
+    name: 'Gemini',
+    key: 'gm',
+    url: 'https://gemini.google.com',
+    color: 'linear-gradient(135deg, #4285F4, #9B72CB, #D96570)',
+    quickLaunch: false,
+  },
+  {
+    category: 'Programming',
+    name: 'Vim Hero',
+    key: 'vim',
+    url: 'https://www.vim-hero.com/lessons/intro-to-modes',
+    color: 'linear-gradient(135deg, #FA7A7A, #41D68F)',
+    quickLaunch: false,
+  },
 
 
   {
