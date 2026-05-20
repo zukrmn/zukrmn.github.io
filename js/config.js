@@ -57,6 +57,15 @@ const CONFIG = {
     color: 'linear-gradient(135deg, #FA7A7A, #41D68F)',
     quickLaunch: false,
   },
+  {
+    category: 'Programming',
+    name: 'Copilot',
+    key: 'co',
+    url: 'https://copilot.microsoft.com/',
+    color: 'linear-gradient(135deg, #2D9BEF, #BA61FF, #F4855B)',
+    quickLaunch: false,
+  },
+
 
 
   {
@@ -109,7 +118,7 @@ const CONFIG = {
     name: 'ZohoMail',
     key: 'zm',
     url: 'https://mail.zoho.com',
-    color: 'linear-gradient(135deg, #4285F4, #EA4335, #FBBC05, #34A853)',
+    color: 'linear-gradient(135deg, #387DCA, #ECA322)',
     quickLaunch: false,
   },
   {
