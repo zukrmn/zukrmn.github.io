@@ -86,6 +86,15 @@ const CONFIG = {
     color: 'linear-gradient(135deg, #cd201f, #cd4c1f)',
     quickLaunch: false,
   },
+  {
+    category: 'Streaming',
+    name: 'OpenSubtitles',
+    key: 'os',
+    url: 'https://www.opensubtitles.org/pb/search/subs',
+    color: 'linear-gradient(135deg, #A9DB26, #596275)',
+    quickLaunch: false,
+  },
+
 
 
   {
