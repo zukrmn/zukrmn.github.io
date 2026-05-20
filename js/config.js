@@ -45,7 +45,7 @@ const CONFIG = {
     category: 'Programming',
     name: 'Gemini',
     key: 'gm',
-    url: 'https://gemini.google.com',
+    url: 'https://gemini.google.com/u/1/app',
     color: 'linear-gradient(135deg, #4285F4, #9B72CB, #D96570)',
     quickLaunch: false,
   },
