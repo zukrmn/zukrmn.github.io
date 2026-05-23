@@ -116,6 +116,16 @@ const CONFIG = {
   },
   {
     category: 'Social',
+    name: 'Reddit',
+    key: 'r',
+    url: 'https://www.reddit.com',
+    search: '/search?q={}',
+    color: 'linear-gradient(135deg, #FF4500, #FF5722)',
+    quickLaunch: false,
+  },
+
+  {
+    category: 'Social',
     name: 'Pinterest',
     key: 'pt',
     url: 'https://www.pinterest.com/',
